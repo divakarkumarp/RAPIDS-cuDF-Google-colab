@@ -1,1 +1,8 @@
 # RAPIDS cuDF Instantly Accelerates pandas up to 50x on Google Colab With Demo
+
+At Google I/O 2024, it was announced that RAPIDS cuDF is now integrated into Google Colab, enabling developers to accelerate pandas code execution by up to 50 times on GPU instances. This integration allows users to leverage the performance of NVIDIA GPUs without requiring any changes to their existing pandas code, making it easier to handle larger datasets efficiently.
+### Key Features of RAPIDS cuDF on Google Colab
+* Zero Code Changes: Users can continue using the familiar pandas API, with cuDF automatically handling the acceleration behind the scenes. This means that existing pandas workflows can be enhanced simply by adding a single command at the beginning of the notebook.
+* Performance Improvements: Benchmark tests show that cuDF can significantly reduce execution times for operations such as joins and group-by calculations. For instance, operations that typically take minutes with standard pandas can be completed in seconds with cuDF on compatible NVIDIA L4 Tensor Core GPUs available in Google Colab's paid tiers.
+* Scalability: While pandas performance degrades with larger datasets, cuDF maintains speed and efficiency. This is particularly beneficial for data scientists working with datasets that exceed 5-10 GB, where traditional pandas struggles.
+* Accessibility: Google Colab provides a user-friendly, cloud-hosted environment that is accessible from any browser, making it a popular choice among data scientists. With over 10 million monthly users, the integration of RAPIDS cuDF into Colab makes high-performance data analysis tools widely available
